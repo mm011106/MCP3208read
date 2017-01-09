@@ -128,7 +128,7 @@ static void transfer(int fd, uint8_t cmd[], uint8_t cmd_size)
 static void print_usage(const char *prog)
 {
 	printf("Usage: %s [-Dsdsc]\n", prog);
-	puts("  -D --device   device to use (default /dev/spidev1.1)\n"
+	puts("  -D --device   device to use (default /dev/spidev0.0)\n"
 	     "  -s --speed    max speed (Hz)\n"
 	     "  -d --delay    delay (usec)\n"
 	     "  -m --mode     Single End mode\n"
