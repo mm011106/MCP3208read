@@ -1,7 +1,7 @@
 ## MCP3208read
 MCP3208 AD converter driver for Raspberry pi
 
-####　MCP3208 をハンドリングしてデータを取り込みます。
+###　MCP3208 をハンドリングしてデータを取り込みます。
   
   戻り値はhexadecimal値になります。0xFFFのような感じ。
 
